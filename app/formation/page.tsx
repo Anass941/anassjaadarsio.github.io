@@ -7,7 +7,6 @@ import {
   Server,
   Shield,
   Cloud,
-  Code,
   Monitor,
   Target,
 } from "lucide-react"
@@ -93,11 +92,6 @@ export default function FormationPage() {
                     icon: Cloud,
                     title: "Cloud et Services",
                     desc: "Services cloud, messagerie, annuaires, supervision et gestion des services réseau.",
-                  },
-                  {
-                    icon: Code,
-                    title: "Développement",
-                    desc: "Scripting Python, Bash, PowerShell et développement d'outils d'administration.",
                   },
                 ].map((item) => (
                   <Card key={item.title} className="bg-card/50 border-border/50">
