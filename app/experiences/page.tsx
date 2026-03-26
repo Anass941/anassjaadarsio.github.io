@@ -80,6 +80,10 @@ export default function ExperiencesPage() {
                       <li>• Participation à la migration de postes vers Windows 11</li>
                       <li>• Câblage réseau et brassage en baie de communication</li>
                       <li>• Assistance aux utilisateurs sur les logiciels métiers (HIS, PACS)</li>
+                      <li>• Configuration et gestion d&apos;imprimantes en réseau (installation, paramétrage, dépannage)</li>
+                      <li>• Mise en place et utilisation de solutions de téléphonie TCP/IP</li>
+                      <li>• Installation et configuration d&apos;un serveur mail (POP), gestion des comptes utilisateurs</li>
+                      <li>• Réalisation de câblage et opérations de brassage réseau</li>
                     </ul>
                     <div className="flex flex-wrap gap-2">
                       {["Windows 10/11", "Panne réseau", "RJ45"].map((tech) => (
