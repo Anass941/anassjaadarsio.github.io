@@ -63,9 +63,7 @@ export default function CompetencesPage() {
                   {[
                     "Réseaux TCP/IP",
                     "Cisco IOS (routage/switching)",
-                    "Pare-feu et VPN",
                     "Cybersécurité",
-                    "Wireshark / Nmap",
                     "Routage",
                     "Putty",
                   ].map((skill) => (
