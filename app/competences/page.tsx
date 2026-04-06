@@ -66,6 +66,8 @@ export default function CompetencesPage() {
                     "Pare-feu et VPN",
                     "Cybersécurité",
                     "Wireshark / Nmap",
+                    "Routage",
+                    "Putty",
                   ].map((skill) => (
                     <li key={skill} className="flex items-center gap-3">
                       <span className="w-2 h-2 rounded-full bg-cyan-500"></span>

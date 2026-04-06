@@ -6,7 +6,6 @@ import {
   Network,
   Server,
   Shield,
-  Cloud,
   Monitor,
   Target,
 } from "lucide-react"
@@ -87,11 +86,6 @@ export default function FormationPage() {
                     icon: Shield,
                     title: "Cybersécurité",
                     desc: "Pare-feux, IDS/IPS, gestion des vulnérabilités, conformité et réponse aux incidents.",
-                  },
-                  {
-                    icon: Cloud,
-                    title: "Cloud et Services",
-                    desc: "Services cloud, messagerie, annuaires, supervision et gestion des services réseau.",
                   },
                 ].map((item) => (
                   <Card key={item.title} className="bg-card/50 border-border/50">
