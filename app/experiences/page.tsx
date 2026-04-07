@@ -75,14 +75,13 @@ export default function ExperiencesPage() {
                     </div>
                     <p className="text-cyan-500 text-sm mb-3">Technicien Systèmes et Réseaux</p>
                     <ul className="text-sm text-muted-foreground space-y-1 mb-4">
-                      <li>• Gestion de la téléphonie</li>
-                      <li>• Inventaire du parc informatique avec OCS Inventory</li>
-                      <li>• Participation à la migration de postes vers Windows 11</li>
-                      <li>• Câblage réseau et brassage en baie de communication</li>
-                      <li>• Assistance aux utilisateurs sur les logiciels métiers (HIS, PACS)</li>
+                      <li>• Configuration et gestion d&apos;imprimantes en réseau (installation, paramétrage, dépannage)</li>
+                      <li>• Mise en place et utilisation de solutions de téléphonie TCP/IP</li>
+                      <li>• Installation et configuration d&apos;un serveur mail (POP), gestion des comptes utilisateurs</li>
+                      <li>• Réalisation de câblage et opérations de brassage réseau</li>
                     </ul>
                     <div className="flex flex-wrap gap-2">
-                      {["Windows 10/11", "Panne réseau", "RJ45"].map((tech) => (
+                      {["TCP/IP", "Serveur Mail POP", "Imprimantes réseau", "Téléphonie IP", "Câblage RJ45", "Brassage réseau"].map((tech) => (
                         <Badge key={tech} variant="secondary" className="text-xs">
                           {tech}
                         </Badge>
